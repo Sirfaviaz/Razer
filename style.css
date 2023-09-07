@@ -1,0 +1,410 @@
+
+/* Custom styles for the navbar */
+
+#navbarNav
+{
+    display: flex;
+    /* background-color:pink; */
+}
+#navbarNav >ul
+{ 
+    width:100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbarNavDropdown
+{
+    color: aliceblue;
+}
+
+.navbar-custom > {
+    background-color: #000; /* Background color */
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff; /* Company logo color */
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; /* Nav link color */
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: #fff; /* Toggle icon color */
+}
+
+
+
+/* Centered logo on mobile */
+@media (max-width: 767px) {
+    #log {
+        display: block;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+    }
+
+    #tog {
+        order: -1; /* Move toggle to the left */
+    }
+
+    .navbar-custom .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* Cart dropdown */
+ /* Style for the dropdown menu */
+ .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the button that opens the dropdown menu */
+.dropdown-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+/* Change the color of dropdown items on hover */
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when the dropdown button is hovered */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background: #07051a;
+}
+.searchbar >form{
+    position:relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* transition: all 1s; */
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.searchbar form >input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+.searchbar form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+.searchbar form:hover input{
+    display: block;
+}
+.searchbar form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+.bod
+{
+    background-color: #333;
+}
+
+#hero
+{
+    width: auto;
+    height: 700px;
+    background-image: url(media/small/back-to-school-homepage-mobile2x.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    
+}
+
+
+
+
+#hero2
+{
+    width:auto;
+    height: 700px;
+    background-image: url(media/small/razer-blade-14-2023-homepage-mobile2x.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero3
+{
+    width:auto;
+    height: 700px;
+    background-image: url(media/small/kishi-v2-pro-for-android-homepage-mobile2x.webp);
+    background-size:100% 110%;
+    background-repeat: no-repeat;
+}
+
+#grids_bottom
+{
+    width:auto;
+    height:auto;
+    /* background-color: aqua; */
+
+}
+
+#g1
+{   width: 674.5px;
+    height:413px;
+    padding:0px 5px 10px 0px;
+    background-image: url(media/razercon2023-950x580-desktop.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#g2
+{  
+    height:413px;
+    padding:0px 0px 10px 5px;
+    background-image: url(media/razer-blackwidow-v4-75-b-480x615-mobile.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#g3
+{  
+    
+    height:413x;
+    padding:0px 5px 10px 0px;
+    background-image: url(media/mercury-blade16-blade18-b-950x580-desktop.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#g4
+{   
+    
+    height:413px;
+    padding:0px 0px 10px 5px;
+    background-image: url(media/razer-kitsune-950x580-desktop.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#g5
+{   
+    
+    height:413px;
+    padding:0px 5px 10px 0px;
+    background-image: url(media/enkipro-lamborghini-b-950x580-desktop.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#g6
+{  
+    
+    height:413px;
+    padding:0px 0px 10px 5px;
+    background-image: url(media/razer-edge-b-950x580-desktop.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#shopnow:hover
+{
+    text-decoration: underline;
+
+}
+.txt_in_img
+{
+    display: flex;
+    justify-content: center;
+}
+
+.l_m
+{
+    display: flex;
+    margin-left: 20px;
+}
+
+.lmt:hover
+{
+text-decoration: underline;
+color: #fff;
+}
+#footer
+{
+    background-color:black ;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li {
+    margin-bottom: 10px;
+    color:#333;
+}
+
+.menu-header {
+    font-weight: bold;
+    color:aqua;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color:#fff;
+}
+
+
+.follow-us {
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #333; 
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0073e6; 
+}
+
+.undrln{
+    margin-left: 5px;
+}
+
+
+.undrln:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#copy_rights
+{   
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Your existing CSS styles for larger screens (XL view) */
+
+/* Media query for screens 991px wide and below (typical tablet and mobile screens) */
+@media (max-width: 991px) {
+    .social-icons
+   {  display: flex;
+     flex-direction:row;
+     align-self: center;
+     
+}
+.follow-us 
+{   
+    align-self: center;
+    margin-left: 45%;
+}
+.follow-us >h2
+{
+    visibility: hidden;
+}   
+    
+        
+}
+
+@media (max-width: 767px) {
+    .menu li >ul {
+        display: none;
+    }
+
+    .menu li.active ul {
+        display: block;
+    }
+
+    .menu li.active {
+        background-color: #f0f0f0;
+    }
+}
