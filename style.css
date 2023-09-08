@@ -30,13 +30,27 @@
 
 .navbar-custom .navbar-nav .nav-link {
     color: #fff; /* Nav link color */
+    text-decoration: solid;
 }
 
 .navbar-custom .navbar-toggler-icon {
     background-color: #fff; /* Toggle icon color */
 }
 
-
+.navbar-light .navbar-nav .nav-link
+{
+    color: grey;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: grey;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: grey;
+}
 
 /* Centered logo on mobile */
 @media (max-width: 767px) {
